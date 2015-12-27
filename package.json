@@ -19,5 +19,13 @@
   "devDependencies": {
     "ndarray": "^1.0.18",
     "nodeunit": "^0.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwtyro/geo-identify-position-format.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wwwtyro/geo-identify-position-format/issues"
+  },
+  "homepage": "https://github.com/wwwtyro/geo-identify-position-format#readme"
 }
