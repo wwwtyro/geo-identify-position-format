@@ -1,0 +1,23 @@
+{
+  "name": "geo-identify-position-format",
+  "version": "1.0.0",
+  "description": "Identifies geometry position format as flat array, array of arrays, typed array, or 1D ndarray.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "keywords": [
+    "stackgl",
+    "geometry"
+  ],
+  "author": "Rye Terrell",
+  "license": "Unlicense",
+  "dependencies": {
+    "is-typedarray": "^1.0.0",
+    "isndarray": "^1.0.0"
+  },
+  "devDependencies": {
+    "ndarray": "^1.0.18",
+    "nodeunit": "^0.9.1"
+  }
+}
