@@ -1,6 +1,6 @@
 {
   "name": "geo-identify-position-format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Identifies geometry position format as flat array, array of arrays, typed array, or 1D ndarray.",
   "main": "index.js",
   "scripts": {

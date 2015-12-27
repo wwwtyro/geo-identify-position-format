@@ -19,21 +19,21 @@ exports.testArrayOfArrays = function(test) {
 
 exports.testArrayOfTypedArrays = function(test) {
     test.expect(1);
-    var aoa = [new Float32Array(1,2,3), new Float32Array(4,5,6)];
+    var aoa = [new Float32Array([1,2,3]), new Float32Array([4,5,6])];
     test.equal(geoid.identify(aoa), geoid.ARRAY_OF_TYPED_ARRAYS);
     test.done();
 }
 
 exports.testTypedArray = function(test) {
     test.expect(1);
-    var typed = new Float32Array(1,2,3,4,5,6);
+    var typed = new Float32Array([1,2,3,4,5,6]);
     test.equal(geoid.identify(typed), geoid.TYPED_ARRAY);
     test.done();
 }
 
 exports.testNDArray = function(test) {
     test.expect(1);
-    var nda = ndarray(new Float32Array(1,2,3,4,5,6));
+    var nda = ndarray(new Float32Array([1,2,3,4,5,6]));
     test.equal(geoid.identify(nda), geoid.NDARRAY);
     test.done();
 }
